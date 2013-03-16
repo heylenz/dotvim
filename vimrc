@@ -1,3 +1,6 @@
+set runtimepath=~/.vim,$VIMRUNTIME,~/.vim/after
+" enable clipboard and other Win32 features
+source $VIMRUNTIME/mswin.vim
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 
@@ -9,7 +12,7 @@ call pathogen#helptags()
 language messages zh_CN.utf-8   
 colorscheme molokai            
 set guioptions-=T       
-set guifont=Bitstream_Vera_Sans_Mono:h11:cANSI
+set guifont=DejaVu\ Sans\ mono\ 11
 set noerrorbells       
 set nobackup            
 set linespace=0         
